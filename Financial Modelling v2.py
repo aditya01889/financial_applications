@@ -122,6 +122,8 @@ def equity_in():
             return "Error: Discount rate is less that growth rate"
         elif discount_rate - div_gr_rate == 0:
             return "Error: Discount Rate is == Growth Rate. Cannot Divide By 0."
+        elif first_stage_terms = 0:
+            return "Error: No terms in Stage 1."
 
         for term in range(1, first_stage_terms+1):
             term_div = float(input("What is the value of the dividend in period {}? ".format(term)))
